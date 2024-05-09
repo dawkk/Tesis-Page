@@ -15,7 +15,7 @@ const config: Config = {
       },
       colors: {
         logoHeader: '#2b689e',
-        buttonForm: '#99bdf9',
+        buttonFormLightBlue: '#99bdf9',
         buttonCallToAction:'#fcd34d',
         logoFooter: '#7195b6',
         primaryDarkPurple:'#4338ca'
