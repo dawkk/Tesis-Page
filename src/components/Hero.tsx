@@ -102,7 +102,7 @@ const Hero = () => {
                     <ErrorMessage name="cellphone" component="div" className="error-message text-red-500 text-xs mt-1" />
 
                     <div className='flex justify-center font-bold text-white'>
-                      <button type="submit" disabled={isSubmitting} className="submit-button bg-buttonFormLightBlue w-full py-2.5 mt-4 rounded-lg transition duration-300 ease-in-out hover:bg-blue-700 hover:shadow-md hover:scale-110">
+                      <button type="submit" disabled={isSubmitting} className="submit-button bg-buttonLightBlue w-full py-2.5 mt-4 rounded-lg transition duration-300 ease-in-out hover:bg-blue-700 hover:shadow-md hover:scale-110">
                         Fale com um especialista
                       </button>
                     </div>

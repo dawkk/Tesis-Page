@@ -15,10 +15,11 @@ const config: Config = {
       },
       colors: {
         logoHeader: '#2b689e',
-        buttonFormLightBlue: '#99bdf9',
-        buttonCallToAction:'#fcd34d',
+        buttonLightBlue: '#99bdf9',
+        buttonYellow:'#fcd34d',
         logoFooter: '#7195b6',
-        primaryDarkPurple:'#4338ca'
+        primaryDarkPurple:'#4338ca',
+        lightBlue: '#f1f7ff'
       },
     },
   },
