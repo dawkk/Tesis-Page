@@ -4,11 +4,11 @@ import ServiceCard from './ServiceCard'
 const Services = () => {
   return (
     <div className='bg-white py-20 relative'>
-      <div className='bg-lightBlue flex flex-col p-6 relative'>
+      <div className='bg-articBlue flex flex-col p-6 relative'>
 
         {/* Title */}
         <div className='absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-          <div className='flex justify-center font-bold text-primaryDarkPurple text-xl'>
+          <div className='flex justify-center font-bold text-darkPurple text-xl'>
             <h3>
               SERVIÇOS
             </h3>
@@ -26,8 +26,8 @@ const Services = () => {
 
         {/* Button */}
         <div className='absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-8 w-full'>
-          <div className='flex justify-center font-bold text-primaryDarkPurple'>
-            <button type="submit" className="submit-button bg-buttonYellow p-4 mt-4 rounded-lg transition duration-300 ease-in-out hover:bg-yellow-300 hover:shadow-md hover:scale-110">
+          <div className='flex justify-center font-bold text-darkPurple'>
+            <button type="submit" className="submit-button bg-amberYellow w-[350px] p-4 mt-4 rounded-lg transition duration-300 ease-in-out hover:bg-yellow-300 hover:shadow-md hover:scale-110">
               Fale com um especialista
             </button>
           </div>

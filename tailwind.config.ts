@@ -14,12 +14,13 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        logoHeader: '#2b689e',
-        buttonLightBlue: '#99bdf9',
-        buttonYellow:'#fcd34d',
-        logoFooter: '#7195b6',
-        primaryDarkPurple:'#4338ca',
-        lightBlue: '#f1f7ff'
+        royalBlue: '#2b689e',
+        slateBlue:'#7195b6',
+        skyBlue: '#99bdf9',
+        amberYellow:'#fcd34d',
+        darkPurple:'#4338ca',
+        articBlue: '#f1f7ff'
+
       },
     },
   },

@@ -48,7 +48,7 @@ const Hero = () => {
         </div>
 
         {/* Form */}
-        <div className="bg-white rounded-lg text-primaryDarkPurple p-12 max-w-[600px] max-h-[600px]">
+        <div className="bg-white rounded-lg text-darkPurple p-12 max-w-[600px] max-h-[600px]">
           <div className='flex justify-center'>
             <h3 className="font-bold">Informe seus dados para falar com um especialista:</h3>
           </div>
@@ -102,7 +102,7 @@ const Hero = () => {
                     <ErrorMessage name="cellphone" component="div" className="error-message text-red-500 text-xs mt-1" />
 
                     <div className='flex justify-center font-bold text-white'>
-                      <button type="submit" disabled={isSubmitting} className="submit-button bg-buttonLightBlue w-full py-2.5 mt-4 rounded-lg transition duration-300 ease-in-out hover:bg-blue-700 hover:shadow-md hover:scale-110">
+                      <button type="submit" disabled={isSubmitting} className="submit-button bg-skyBlue w-full py-2.5 mt-4 rounded-lg transition duration-300 ease-in-out hover:bg-blue-700 hover:shadow-md hover:scale-110">
                         Fale com um especialista
                       </button>
                     </div>
