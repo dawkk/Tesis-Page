@@ -28,7 +28,7 @@ const Hero = () => {
 
   return (
     <div className="gradient-purple-background">
-      <div className="flex flex-col sm:items-center lg:flex-row gap-12 lg:gap-4 px-[8%] lg:px-[8%] py-10  md:p-10">
+      <div className="flex flex-col sm:items-center lg:flex-row xl:justify-between 2xl:justify-around gap-12 lg:gap-4 px-[8%] lg:px-[8%] py-12  md:p-10">
         {/* Content */}
         <div className="text-white flex flex-col sm:items-center lg:items-start gap-4 lg:gap-2">
           <div className="mb-4">
