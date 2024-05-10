@@ -2,13 +2,21 @@ import React from 'react'
 import ServiceCard from './ServiceCard'
 
 const Services = () => {
+
+  const scrollToForm = () => {
+    const formSection = document.getElementById('logo-header');
+    if (formSection) {
+      formSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className='bg-white py-20 sm:py-24 relative'>
       <div className='bg-articBlue flex flex-col p-6 relative'>
 
         {/* Title */}
         <div className='absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-          <div className='flex justify-center font-bold text-darkPurple text-xl sm:text-2xl'>
+          <div className='flex justify-center font-bold text-darkPurple text-xl sm:text-2xl lg:text-3xl'>
             <h3>
               SERVIÇOS
             </h3>
@@ -27,7 +35,7 @@ const Services = () => {
         {/* Button */}
         <div className='absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-8 w-full'>
           <div className='flex justify-center font-bold text-darkPurple'>
-            <button type="submit" className="submit-button bg-amberYellow w-[350px] p-4 mt-4 rounded-lg transition duration-300 ease-in-out hover:bg-yellow-300 hover:shadow-md hover:scale-110">
+            <button type="button" onClick={scrollToForm} className=" bg-amberYellow w-[350px] p-4 mt-4 rounded-lg transition duration-300 ease-in-out hover:bg-yellow-300 hover:shadow-md hover:scale-110">
               Fale com um especialista
             </button>
           </div>
@@ -36,6 +44,6 @@ const Services = () => {
       </div>
     </div>
   )
-}
+};
 
 export default Services
