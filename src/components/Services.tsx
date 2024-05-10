@@ -16,7 +16,7 @@ const Services = () => {
         </div>
 
         {/* Services */}
-        <div className='flex flex-wrap justify-around gap-20 md:gap-24 py-20 md:py-28'>
+        <div className='flex flex-wrap justify-around gap-20 md:gap-24 lg:justify-evenly py-20 md:py-28'>
           <ServiceCard number={1} text='Prover suporte para a avaliação de novos produtos e tecnologias' />
           <ServiceCard number={2} text='Reduzir riscos na utilização de novos produtos e tecnologias' />
           <ServiceCard number={3} text='Orientar o mercado na escolha de novos produtos e tecnologias' />

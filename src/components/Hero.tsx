@@ -28,24 +28,24 @@ const Hero = () => {
 
   return (
     <div className="gradient-purple-background">
-      <div className="flex flex-col sm:items-center gap-12 px-[8%] py-10  md:p-10">
+      <div className="flex flex-col sm:items-center lg:flex-row gap-12 lg:gap-4 px-[8%] lg:px-[8%] py-10  md:p-10">
         {/* Content */}
-        <div className="text-white flex flex-col sm:items-center gap-4">
+        <div className="text-white flex flex-col sm:items-center lg:items-start gap-4 lg:gap-2">
           <div className="mb-4">
-            <h2 className="text-2xl">Desenvolvimento e gestão de serviços tecnológicos!</h2>
+            <h2 className="text-2xl font-bold max-w-[600px]">Desenvolvimento e gestão de serviços tecnológicos!</h2>
           </div>
 
           <div className="flex gap-2">
-            <FaArrowRightLong className="text-green-500 h-6 w-6 mt-0.5" />
-            <p className="text-sm">Gestão técnica de Programas Setoriais da Qualidade</p>
+            <FaArrowRightLong className="text-green-500 h-6 w-6 mt-0.5 lg:mt-0 " />
+            <p className="text-sm lg:text-md lg:mt-0.5">Gestão técnica de Programas Setoriais da Qualidade</p>
           </div>
           <div className="flex gap-2">
-            <FaArrowRightLong className="text-green-500 h-6 w-6 mt-0.5" />
-            <p className="text-sm">Avaliação de produtos inovadores para construção civil</p>
+            <FaArrowRightLong className="text-green-500 h-6 w-6 mt-0.5 lg:mt-0 " />
+            <p className="text-sm lg:text-md lg:mt-0.5">Avaliação de produtos inovadores para construção civil</p>
           </div>
           <div className="flex gap-2">
-            <FaArrowRightLong className="text-green-500 h-6 w-6 mt-0.5" />
-            <p className="text-sm">Realização de ensaios de materiais de construção</p>
+            <FaArrowRightLong className="text-green-500 h-6 w-6 mt-0.5 lg:mt-0 " />
+            <p className="text-sm lg:text-md lg:mt-0.5">Realização de ensaios de materiais de construção</p>
           </div>
         </div>
 
@@ -61,19 +61,19 @@ const Hero = () => {
                   <div className='flex flex-col gap-4'>
                     <div className="flex gap-4 justify-between mt-4">
                       <label htmlFor="name" className="label mt-1">Nome:</label>
-                      <Field type="text" name="name" id="name" className=" bg-slate-50 sm:w-[70%] border-0 rounded-lg p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-secondary focus:outline-none sm:text-sm sm:leading-6" />
+                      <Field type="text" name="name" id="name" className=" bg-articBlue sm:w-[70%] border-0 rounded-lg p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-secondary focus:outline-none sm:text-sm sm:leading-6" />
                     </div>
                     <ErrorMessage name="name" component="div" className="error-message text-red-500 text-xs mt-1" />
 
                     <div className="flex gap-4 justify-between">
                       <label htmlFor="email" className="label mt-1">E-mail:</label>
-                      <Field type="email" name="email" id="email" className=" bg-slate-50 sm:w-[70%] border-0 rounded-lg p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-secondary focus:outline-none sm:text-sm sm:leading-6" />
+                      <Field type="email" name="email" id="email" className=" bg-articBlue sm:w-[70%] border-0 rounded-lg p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-secondary focus:outline-none sm:text-sm sm:leading-6" />
                     </div>
                     <ErrorMessage name="email" component="div" className="error-message text-red-500 text-xs mt-1" />
 
                     <div className="flex gap-4 justify-between">
                       <label htmlFor="company" className="label mt-1">Empresa:</label>
-                      <Field type="text" name="company" id="company" className=" bg-slate-50 sm:w-[70%] border-0 rounded-lg p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-secondary focus:outline-none sm:text-sm sm:leading-6" />
+                      <Field type="text" name="company" id="company" className=" bg-articBlue sm:w-[70%] border-0 rounded-lg p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-secondary focus:outline-none sm:text-sm sm:leading-6" />
                     </div>
                     <ErrorMessage name="company" component="div" className="error-message text-red-500 text-xs mt-1" />
 
@@ -85,7 +85,7 @@ const Hero = () => {
                             {...field}
                             type="tel"
                             maxLength={11}
-                            className=" bg-slate-50 sm:w-[70%] border-0 rounded-lg p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-secondary focus:outline-none sm:text-sm sm:leading-6"
+                            className=" bg-articBlue sm:w-[70%] border-0 rounded-lg p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-secondary focus:outline-none sm:text-sm sm:leading-6"
                             onChange={(e) => {
                               const value = e.target.value.replace(/\D/g, '');
                               form.setFieldValue('cellphone', value);
