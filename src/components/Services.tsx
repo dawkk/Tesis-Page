@@ -3,12 +3,12 @@ import ServiceCard from './ServiceCard'
 
 const Services = () => {
   return (
-    <div className='bg-white py-20 relative'>
+    <div className='bg-white py-20 sm:py-24 relative'>
       <div className='bg-articBlue flex flex-col p-6 relative'>
 
         {/* Title */}
         <div className='absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-          <div className='flex justify-center font-bold text-darkPurple text-xl'>
+          <div className='flex justify-center font-bold text-darkPurple text-xl sm:text-2xl'>
             <h3>
               SERVIÇOS
             </h3>
@@ -16,7 +16,7 @@ const Services = () => {
         </div>
 
         {/* Services */}
-        <div className='flex flex-col gap-6 py-10'>
+        <div className='flex flex-wrap justify-around gap-20 md:gap-24 py-20 md:py-28'>
           <ServiceCard number={1} text='Prover suporte para a avaliação de novos produtos e tecnologias' />
           <ServiceCard number={2} text='Reduzir riscos na utilização de novos produtos e tecnologias' />
           <ServiceCard number={3} text='Orientar o mercado na escolha de novos produtos e tecnologias' />
